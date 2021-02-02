@@ -32,10 +32,17 @@ class Validation
 
 	public $conductores=[
 
-		'idConductor'=>'required|max_length[2]',
+		'idConductor'=>'required',
 		'nombre'=>'required',
 		'telefono'=>'required',
 		'idContrato'=>'required'
+
+	];
+
+	public $conductoresPUT=[
+
+		'nombre'=>'required',
+		'telefono'=>'required'
 
 	];
 
